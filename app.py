@@ -25,7 +25,7 @@ SYSTEMS = [
     {
         "id": "p4", "name": "智能总结概要系统", "icon": "📝", "ver": "v2.0",
         "desc": "多源输入 + AI摘要 + 双引擎对比 + 人工评分", "color": "#9C27B0",
-        "url": "https://summary-system.streamlit.app",
+        "url": "https://summary-system-4.streamlit.app",
     },
 ]
 
