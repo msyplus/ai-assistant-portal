@@ -1,4 +1,4 @@
-# AI 服务运营助手作品集：面试演示脚本
+﻿# AI 服务运营助手作品集：面试演示脚本
 
 这份脚本用于 AI 产品运营 / AI 服务运营面试。目标不是逐个介绍功能，而是把 5 个 Demo 讲成一条完整的服务 AI 工作流。
 
@@ -40,7 +40,7 @@ https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app
 
 打开：
 
-https://voc-risk-detector-mgneov7ezrugxnxdwoynzf.streamlit.app
+https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app
 
 演示动作：
 
@@ -137,4 +137,5 @@ https://ai-assistant-app-msydemo.streamlit.app
 建议回答：
 
 > 我的优势是业务到系统的翻译能力。我不是算法工程师，但我知道一个服务场景应该如何定义输入、输出、评估标准和 Badcase 反馈机制，这正是 AI 应用落地时最容易缺的一环。
+
 

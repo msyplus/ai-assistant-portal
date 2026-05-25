@@ -1,4 +1,4 @@
-"""
+﻿"""
 AI 服务运营助手作品集 — 统一展示门户
 """
 
@@ -28,7 +28,7 @@ SYSTEMS = [
         "value": "识别 VOC 聚集、敏感风险和时间异常，把潜在舆情从事后复盘前移到事中预警。",
         "evidence": "对应携程智慧预警平台与拼多多批量异常客诉处理经验。",
         "features": ["统计聚类", "敏感词识别", "时间异常检测", "风险报告"],
-        "url": "https://voc-risk-detector-mgneov7ezrugxnxdwoynzf.streamlit.app",
+        "url": "https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app",
     },
     {
         "name": "客服对话质量评估",
@@ -279,3 +279,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

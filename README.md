@@ -1,4 +1,4 @@
-# AI 服务运营助手作品集
+﻿# AI 服务运营助手作品集
 
 这是一个基于真实服务运营经验构建的 AI Demo 作品集门户，聚合 4 个 Streamlit 应用：VOC 智能分类、批量异常预警、客服对话质检、服务事件摘要。
 
@@ -17,7 +17,7 @@ https://ai-assistant-app-msydemo.streamlit.app
 | 模块 | 业务价值 | Demo |
 |---|---|---|
 | VOC 智能分类与优先级评估 | 将客诉文本转化为类别、情绪、优先级和处理建议 | https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app |
-| 批量异常识别与服务风险预警 | 识别 VOC 聚集、敏感风险和时间异常 | https://voc-risk-detector-mgneov7ezrugxnxdwoynzf.streamlit.app |
+| 批量异常识别与服务风险预警 | 识别 VOC 聚集、敏感风险和时间异常 | https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app |
 | 客服对话质量评估 | 从四个维度评估客服对话质量 | https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app |
 | 服务事件智能摘要 | 将对话、日志和备注压缩为结构化摘要 | https://summary-system-4.streamlit.app |
 
@@ -56,3 +56,4 @@ streamlit run app.py
 ## 面试展示话术
 
 这 5 个 Demo 不是随机练手项目，而是我把过去做过的服务 AI 系统重新拆成五个能力模块：先识别问题是什么，再判断风险有多高，再评估服务质量，再生成结构化摘要，最后统一入口降低工具切换成本。这对应我在携程做 AI 项目时的核心理解：AI 不应该成为新的工具负担，而应该嵌入工作流。
+
