@@ -48,14 +48,24 @@ SYSTEMS = [
         "features": ["多源输入", "实体提取", "结构化摘要", "人工评分反馈"],
         "url": "https://summary-system-4.streamlit.app",
     },
+    {
+        "name": "客服 SOP 知识库问答",
+        "short": "RAG",
+        "version": "v1.0",
+        "value": "把服务 SOP、质检标准和风险规则转为可检索知识库，输出带引用依据的处理建议。",
+        "evidence": "用于补齐 RAG / 知识库应用证据，展示从规则文档到问答原型的产品转译能力。",
+        "features": ["文档切分", "TF-IDF 检索", "引用依据", "结构化回答"],
+        "url": "https://service-rag-demo.streamlit.app",
+    },
 ]
 
 WORKFLOW = [
     ("1", "识别问题", "VOC 分类与优先级评估"),
     ("2", "判断风险", "批量异常与舆情预警"),
     ("3", "评估质量", "客服对话质检"),
-    ("4", "沉淀信息", "服务事件智能摘要"),
-    ("5", "统一入口", "降低工具切换成本"),
+    ("4", "检索知识", "SOP 知识库问答"),
+    ("5", "沉淀信息", "服务事件智能摘要"),
+    ("6", "统一入口", "降低工具切换成本"),
 ]
 
 
@@ -166,7 +176,7 @@ def render_hero():
 
 def render_metrics():
     cols = st.columns(4)
-    cols[0].metric("Demo 模块", "4 + 1", "统一门户")
+    cols[0].metric("Demo 模块", "5 + 1", "统一门户")
     cols[1].metric("默认演示", "无需 Key", "规则/统计引擎")
     cols[2].metric("AI 增强", "Multi-LLM", "Ollama/DeepSeek/Gemini/Groq")
     cols[3].metric("作品定位", "AI 产品运营", "服务治理场景")
@@ -174,7 +184,7 @@ def render_metrics():
 
 def render_workflow():
     st.markdown('<div class="section-title">服务 AI 工作流</div>', unsafe_allow_html=True)
-    cols = st.columns(5)
+    cols = st.columns(6)
     for col, (index, title, desc) in zip(cols, WORKFLOW):
         with col:
             st.markdown(
